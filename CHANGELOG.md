@@ -184,7 +184,7 @@ For soundMod_TK v2.0.0
 - Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-TXTP-MATCH-Here'
 - Changed 'Txtps-With-No-WEM-References' to 'x203-TXTPs-With-NO-WEM-REFERENCE'
 - Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-TXTPs-With-OTHER-ERROR-Here'
-- Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-DUPE-ID-TXTPs-Here'
+- Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-TXTPs-With-DUPE-WEM-IDs-Here'
 
 - Added Option 0
   1. This option allows users to convert wav files to wem files
