@@ -7,9 +7,7 @@ OVERVIEW
    
    a. Replacing ingame audio files with your custom files
 
-   b. Extracting vanilla audio files from bnk files
-
-   c. Other, miscellaneous operations
+   b. Other, miscellaneous operations
 
 3. The 3_XTRA folder contains:
    
