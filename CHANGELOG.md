@@ -147,13 +147,21 @@ For General
 - Renamed 'soundMod_TK_v1.2.2' to 'SMT_TK'. This folder will no longer have its own version
 - Chnaged 'zzz_CHANGELOG.json' to 'CHANGELOG.md'
 - Changed 'zz_READ_THIS_FIRST.txt' to 'README.md'
-- 
+  
 
 For soundMod_TK v2.0.0
 - Overhauled UI (Is now consistent with my other tools, soundKit_MR and soundKit_SB)
 - Changed '1_Extras' to '0_XTRA'
 - Changed '1-Put-Media-Wems-Here' to '0-MEDIA', moved it inside of '0_XTRA'
-- Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA' (Work In Progress)
+- Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA'
+
+- Changed all functions to work with .json files instead of .txtp files
+  1. This makes it simpler to extract the information needed to rename .wem files,
+     as these .jsons can be obtained directly from FModel itself
+  2. Simply go to 'Polaris/Content/WwiseAudio/Event' in FModel
+  3. Then extract the entire 'Event' folder as .jsons
+  4. Place these .json files into the '0-JSONs' folder
+
 - Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
 - Created 'x100-XTRAs-Are-Here' folder
   Inside of there, created 'x103-TEST-Wem-Stuff' and 'x104-SILENT-Wem-Stuff'
@@ -181,13 +189,16 @@ For soundMod_TK v2.0.0
 - Changed Option 102 to accomodate the new folder path  
 
 - Changed '3-Wems-And-Txtps-With-Issues-Are-Copied-Here' to 'x200-ERROR-FILEs-Are-Here'
-- Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-TXTP-MATCH-Here'
-- Changed 'Txtps-With-No-WEM-References' to 'x203-TXTPs-With-NO-WEM-REFERENCE'
-- Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-TXTPs-With-OTHER-ERROR-Here'
-- Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-TXTPs-With-DUPE-WEM-IDs-Here'
+- Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-JSON-MATCH-Here'
+- Changed 'Txtps-With-No-WEM-References' to 'x203-JSONs-With-NO-WEM-REFERENCE'
+- Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-JSONs-With-OTHER-ERROR-Here'
+- Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-JSONs-With-DUPE-WEM-IDs-Here'
 
+- Added '0-Put-CUSTOM-WAVS-Here' folder
 - Added Option 0
   1. This option allows users to convert wav files to wem files
+  2. Simply place the wav files into '0-Put-CUSTOM-WAVS-Here' then choose option 0 of the script
+  3. Wem files will be output into '2-Put-CUSTOM-WEMs-Here'
 
 
 -----------------------------------------------------
