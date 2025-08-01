@@ -21,7 +21,7 @@ MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they wil
 --------------------------------------------------------------
 CREDITS:
 
-BruhLookAtThis / ❕토 Tobi 비❕ (Spare Change?: https://linktr.ee/BruhLookAtThis)
+BruhLookAtThis / ❕토 Tobi 비❕ [(Spare Change?)](https://linktr.ee/BruhLookAtThis)
 
 --------------------------------------------------------------
 ## Licensing
