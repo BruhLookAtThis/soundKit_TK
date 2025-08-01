@@ -180,6 +180,12 @@ For soundMod_TK v2.0.0
   Moved this inside of 'x100-XTRAs-Are-Here'
 - Changed Option 102 to accomodate the new folder path  
 
+- Changed '3-Wems-And-Txtps-With-Issues-Are-Copied-Here' to 'x200-ERROR-FILEs-Are-Here'
+- Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-TXTP-MATCH-Here'
+- Changed 'Txtps-With-No-WEM-References' to 'x203-TXTPs-With-NO-WEM-REFERENCE'
+- Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-TXTPs-With-OTHER-ERROR-Here'
+- Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-DUPE-ID-TXTPs-Here'
+
 - Added Option 0
   1. This option allows users to convert wav files to wem files
 
