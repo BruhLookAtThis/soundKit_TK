@@ -141,7 +141,14 @@ For soundMod_TK v1.2.2
 
 UPDATE 2.0.0 (NOT RELEASED YET)
 
-For soundMod_TK v1.2.2
+For General
+- Removed '.OLD-TOOLS-ONLY-USE-IF-NECESSARY' folder, no longer necessary
+- Changed '0_Extras' to '3_XTRA'
+- Renamed 'soundMod_TK_v1.2.2' to 'SMT_TK'. This folder will no longer have its own version
+- Chnaged 'zzz_CHANGELOG.json' to 'CHANGELOG.md'
+- Changed 'zz_READ_THIS_FIRST.txt' to 'README.md'
+
+For soundMod_TK v2.0.0
 - Added Fahkumram to the Codenames list
 - Added latest TXTPs
 
