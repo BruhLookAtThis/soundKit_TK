@@ -147,12 +147,37 @@ For General
 - Renamed 'soundMod_TK_v1.2.2' to 'SMT_TK'. This folder will no longer have its own version
 - Chnaged 'zzz_CHANGELOG.json' to 'CHANGELOG.md'
 - Changed 'zz_READ_THIS_FIRST.txt' to 'README.md'
+- 
 
 For soundMod_TK v2.0.0
-- Added Fahkumram to the Codenames list
-- Added latest TXTPs
+- Overhauled UI (Is now consistent with my other tools, soundKit_MR and soundKit_SB)
+- Changed '1_Extras' to '0_XTRA'
+- Changed '1-Put-Media-Wems-Here' to '0-MEDIA', moved it inside of '0_XTRA'
+- Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA' (Work In Progress)
+- Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
+- Created 'x100-XTRAs-Are-Here' folder.
+  Inside of there, created 'x103-TEST-Wem-Stuff' and 'x104-SILENT-Wem-Stuff'
+  
+- Changed 'x1-Put-Wems-To-TEST-Here-(OPTIONAL)' to 'A-Put-Wems-To-TEST-Here'
+- Changed 'x2-Your-New-TEST-Wems-Are-Here' to 'B-Your-New-TEST-Wems-Are-Here'
+  Moved both of these inside of 'x103-TEST-Wem-Stuff'
+- Changed 'Option 3' to 'Option 103'
+- Changed Option 103 to accomodate the new folde paths.
+ 
+- Changed how Option 103 functions
+  1. Previously, test file creation was limited to the amount of test wems available in the Tests folder
+  2. Now, the script will reuse Test wems if there are more source wems than test wems
+  3. "_test#" was changed to "-test#"
+ 
+- Changed 'x3-Put-Wems-To-SILENCE-Here-(OPTIONAL)' to 'A-Put-Wems-To-SILENCE-Here'
+- Changed 'x4-Your-Newly-SILENCED-Wems-Are-Here' to 'B-Your-New-TEST-Wems-Are-Here'
+  Moved both of these inside of 'x104-SILENT-Wem-Stuff'
+- Changed 'Option 4' to 'Option 104'
+- Changed Option 104 to accomodate the new folde paths. 
 
-- REMINDER: Written instructions are NOT yet updated. Will update when I...well, when I feel like it tbh
+- Added Option 0
+  1. This option allows users to convert wav files to wem files.
+
 
 -----------------------------------------------------
 -----------------------------------------------------
