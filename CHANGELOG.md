@@ -155,14 +155,14 @@ For soundMod_TK v2.0.0
 - Changed '1-Put-Media-Wems-Here' to '0-MEDIA', moved it inside of '0_XTRA'
 - Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA' (Work In Progress)
 - Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
-- Created 'x100-XTRAs-Are-Here' folder.
+- Created 'x100-XTRAs-Are-Here' folder
   Inside of there, created 'x103-TEST-Wem-Stuff' and 'x104-SILENT-Wem-Stuff'
   
 - Changed 'x1-Put-Wems-To-TEST-Here-(OPTIONAL)' to 'A-Put-Wems-To-TEST-Here'
 - Changed 'x2-Your-New-TEST-Wems-Are-Here' to 'B-Your-New-TEST-Wems-Are-Here'
   Moved both of these inside of 'x103-TEST-Wem-Stuff'
 - Changed 'Option 3' to 'Option 103'
-- Changed Option 103 to accomodate the new folde paths.
+- Changed Option 103 to accomodate the new folder paths
  
 - Changed how Option 103 functions
   1. Previously, test file creation was limited to the amount of test wems available in the Tests folder
@@ -173,10 +173,15 @@ For soundMod_TK v2.0.0
 - Changed 'x4-Your-Newly-SILENCED-Wems-Are-Here' to 'B-Your-New-TEST-Wems-Are-Here'
   Moved both of these inside of 'x104-SILENT-Wem-Stuff'
 - Changed 'Option 4' to 'Option 104'
-- Changed Option 104 to accomodate the new folde paths. 
+- Changed Option 104 to accomodate the new folder paths
+
+- Changed 'Option 100' to 'Option 102'
+- Changed '4-TXTPs-With-Matching-WEM-IDs-Are-Here-(DEV)' to 'x102-SEARCHED-Wem-Stuff'
+  Moved this inside of 'x100-XTRAs-Are-Here'
+- Changed Option 102 to accomodate the new folder path  
 
 - Added Option 0
-  1. This option allows users to convert wav files to wem files.
+  1. This option allows users to convert wav files to wem files
 
 
 -----------------------------------------------------
