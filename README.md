@@ -1,7 +1,7 @@
 OVERVIEW
 --------------------------------------------------------------
 
-[GRAB AN FMODEL DOWNLOAD FROM HERE](https://fmodel.app/download)
+[GRAB FMODEL HERE](https://fmodel.app/download)
 
 1. The SMT (Sound Modding Tool) folder is for:
    
