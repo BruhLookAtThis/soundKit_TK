@@ -1,0 +1,170 @@
+----------------------------------------------------------------
+CODENAME LIST (Updated as of 3-22-25)
+----------------------------------------------------------------
+
+/-----------------------------------------NARRATOR/
+_SYVO_: SOUND - Narrator
+_VO_SYS_: SOUND - Narrator
+Play_0: SOUND - Narrator
+Play_1: SOUND - Narrator
+Play_2: SOUND - Narrator
+Play_3: SOUND - Narrator
+Play_4: SOUND - Narrator
+Play_5: SOUND - Narrator
+Play_6: SOUND - Narrator
+Play_7: SOUND - Narrator
+Play_8: SOUND - Narrator
+Play_9: SOUND - Narrator
+Play_10: SOUND - Narrator
+Play_Round2: SOUND - Narrator
+Play_Round3: SOUND - Narrator
+Play_Round4: SOUND - Narrator
+Play_Round1: SOUND - Narrator
+Play_Round5: SOUND - Narrator
+Play_Round9: SOUND - Narrator
+Play_Round6: SOUND - Narrator
+Play_Round7: SOUND - Narrator
+Play_Round8: SOUND - Narrator
+Play_Fight: SOUND - Narrator
+Play_FinalRound: SOUND - Narrator
+Play_DoubleKO: SOUND - Narrator
+Play_Draw: SOUND - Narrator
+Play_Wins: SOUND - Narrator
+Play_YouLose: SOUND - Narrator
+Play_YouWin: SOUND - Narrator
+Play_TimeUp: SOUND - Narrator
+Play_KO: SOUND - Narrator
+Play_Win: SOUND - Narrator
+Play_Lose: SOUND - Narrator
+Play_Loses: SOUND - Narrator
+Play_Perfect: SOUND - Narrator
+Play_Great: SOUND - Narrator
+Play_Continue: SOUND - Narrator
+Play_Gameover: SOUND - Narrator
+Play_Revengematch: SOUND - Narrator
+Play_Rivalmatch: SOUND - Narrator
+Play_Anewopponent: SOUND - Narrator
+Play_Newchallenger: SOUND - Narrator
+Play_Opponentcame: SOUND - Narrator
+Play_Opponentfound: SOUND - Narrator
+Play_Extraround: SOUND - Narrator
+Play_Bonusround: SOUND - Narrator
+Play_Punish: SOUND - Narrator
+Play_Marvelous: SOUND - Narrator
+Play_Goodmorning: SOUND - Narrator
+Play_Good: SOUND - Narrator
+Play_GSN_Get_ready_for_the_: SOUND - Narrator
+Play_Excellent: SOUND - Narrator
+Play_Chicken: SOUND - Narrator
+
+/-----------------------------------------CHARACTERS - MAIN CAST/
+
+_GRF_: CHARA - Paul (GRF)
+_PIG_: CHARA - Law (PIG)
+_PGN_: CHARA - King (PGN)	
+_CML_: CHARA - Yoshimitsu (CML)	
+_SNK_: CHARA - Hwoarang (SNK)
+_RAT_: CHARA - Ling Xiaoyu (RAT)	
+_ANT_: CHARA - Jin (ANT)
+_CHT_: CHARA - Bryan (CHT)
+_GRL_: CHARA - Kazuya (GRL)
+_BSN_: CHARA - Steve (BSN)
+_CCN_: CHARA - Jack-7 (CCN)
+_DER_: CHARA - Asuka (DER)
+_SWL_: CHARA - Devil Jin (SWL)
+_KLW_: CHARA - Feng (KLW)
+_HMS_: CHARA - Lili (HMS)
+_KMD_: CHARA - Dragunov (KMD)
+_GHP_: CHARA - Leo (GHP)
+_LZD_: CHARA - Lars (LZD)
+_MNT_: CHARA - Alisa (MNT)
+_CTR_: CHARA - Claudio (CTR)
+_HRS_: CHARA - Shaheen (HRS)
+_KAL_: CHARA - Nina (KAL)
+_WLF_: CHARA - Lee (WLF)
+_RBT_: CHARA - Kuma (RBT)
+_TTR_: CHARA - Panda (TTR)
+_CRW_: CHARA - Zafina (CRW)
+_JLY_: CHARA - Leroy (JLY)
+_SE_JLY_DOG_: CHARA - Leroy (JLY)
+_AML_: CHARA - Jun (AML)
+_ZBR_: CHARA - Reina (ZBR)
+_CAT_: CHARA - Azucena (CAT)
+_LON_: CHARA - Victor (LON)
+_BBN_: CHARA - Raven (BBN)
+_DOG_: CHARA - Eddy (DOG)
+_CBR_: CHARA - Lidia (CBR)
+_BEE_: CHARA - Heihachi (BEE)
+_OKM_: CHARA - Clive (OKM)
+_KGR_: CHARA - Anna (KGR)
+_TGR_: CHARA - Fahkumram (TGR)
+
+/-----------------------------------------CHARACTERS - EXTRA/
+
+_GOT_: CHARA 2 - Azazel (GOT)
+_DEK_: CHARA 2 - Practice Dummy (DEK)	
+_XXA_: CHARA 2 - Angel Jin (XXA)
+_XXB_: CHARA 2 - True Devil Kazuya (XXB)
+_XXC_: CHARA 2 - Jack-7 (XXC)
+_XXD_: CHARA 2 - Soldier (XXD)
+_XXE_: CHARA 2 - Devil Jin (Jin Voice) (XXE)	
+_XXF_: CHARA 2 - Tekken Monk (XXF)
+_XXG_: CHARA 2 - Seiryu (XXG)
+
+/-----------------------------------------CHARACTERS - EXTRA 2/
+
+_M_REACT_: CHARA 3 - Avatar (Male Voice)
+_F_REACT_: CHARA 3 - Avatar (Female Voice)
+_SE_Online_Avater_: CHARA 3 - Avatar (Online Emotes)
+
+/-----------------------------------------GAME MODES/
+
+_IW_: MODE - STORY (Radio Comms)
+_VO_MAIN_: MODE - STORY (Tourney Announcer)
+_CHARAEPISODE: MODE - STORY (Chara Episodes)
+_MAINSTORY: MODE - STORY (Main Story Dialogue, Maybe)
+_YELLOWBOOK: MODE - STORY (Unforgotten Echoes)
+Play_SE_STR_: MODE - STORY (SFX)
+
+_AQ_: MODE - Arcade Quest
+_SE_ONLINELOBBY_BATTLEAREA_: MODE - Online Fight Lounge
+Play_SE_Jump_lobby: MODE - Online Fight Lounge (Or Arcade Quest, Idk)
+Play_SE_land_lobby: MODE - Online Fight Lounge (Or Arcade Quest, Idk)
+Play_SE_Lobby: MODE - Online Fight Lounge (Or Arcade Quest, Idk)
+_TKB_: MODE - Tekken Ball
+
+_Practice_: MODE - Practice
+
+/-----------------------------------------COMBAT SOUND/
+_RES_: SOUND - Combat
+Play_FX_HIT_: SOUND - Combat
+Play_SE_Parry: SOUND - Combat
+Play_SE_Air_Tornado_EFX: SOUND - Combat
+Play_SE_Armor_Break: SOUND - Combat
+Play_SE_RageArts_Start: SOUND - Combat
+Play_SE_Rage_Active: SOUND - Combat
+Play_SE_Pcrash_: SOUND - Combat
+Play_SE_SuperSlow: SOUND - Combat
+Play_Guard_: SOUND - Combat
+Play_SE_Shock_Wave_Large: SOUND - Combat
+Play_SE_Stomp_s: SOUND - Combat
+PLAY_SE_Heat_: SOUND - Combat
+Play_SE_Glocky_Start:  SOUND - Combat
+
+PLAY_SE_COM_ITM_: SOUND - Combat (Item)
+
+/-----------------------------------------SYSTEM SOUND/
+
+_SE_SYS_: SOUND - System
+_SE_TimeUp_Countdown_:  SOUND - System
+_FOOTSTEPS: SOUND - Footsteps
+_FT_LOBBY: SOUND - Fight Lounge (Not Sure What This Is)
+
+/-----------------------------------------MUSIC/
+
+_BGM_: SOUND - Music
+
+/-----------------------------------------ENVIRONMENT SOUND/
+
+PLAY_STG: SOUND - Stage
+_SE_STG: SOUND - Stage
