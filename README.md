@@ -1,7 +1,7 @@
 OVERVIEW
 --------------------------------------------------------------
 
-(GRAB AN FMODEL DOWNLOAD FROM HERE: https://fmodel.app/download)
+[GRAB AN FMODEL DOWNLOAD FROM HERE](https://fmodel.app/download)
 
 1. The SMT (Sound Modding Tool) folder is for:
    
@@ -13,7 +13,7 @@ OVERVIEW
    
    a. Various misc tools that may assist you in the modding process. Each contain their own instructions.
    
-   b. A Tekken 8 .usmap (from the #tk8-information-temp channel in https://discord.gg/nCAeJE4z5U )
+   b. A Tekken 8 .usmap (from the #tk8-information-temp channel in the [Tekken 8 Modding Discord](https://discord.gg/nCAeJE4z5U)
    
 
 MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they will be labeled as so)
