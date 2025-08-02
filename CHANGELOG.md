@@ -153,6 +153,7 @@ For soundMod_TK v2.0.0
 - Changed '1_Extras' to '0_XTRA'
 - Changed '1-Put-Media-Wems-Here' to '0-MEDIA', moved it inside of '0_XTRA'
 - Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA'
+- Adjusted script to accomodate subfoldered files in '0-JSONS' and '0-MEDIA'
 
 - Changed all functions to work with .json files instead of .txtp files
   1. This makes it simpler to extract the information needed to rename .wem files,
@@ -195,6 +196,7 @@ For soundMod_TK v2.0.0
 - Changed 'Option 100' to 'Option 102'
 - Changed '4-TXTPs-With-Matching-WEM-IDs-Are-Here-(DEV)' to 'x102-SEARCHED-Wem-Stuff'
   Moved this inside of 'x100-XTRAs-Are-Here'
+- Moved 'Play_BGM_Container.json' to '0-TOOLS'  
 - Changed Option 102 to accomodate the new folder path
 - Added 'Play_BGM_Container.json' support
   1. Now, wem IDs that are found in this file (likely for music) can be searched
