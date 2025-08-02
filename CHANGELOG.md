@@ -161,6 +161,10 @@ For soundMod_TK v2.0.0
   2. Simply go to 'Polaris/Content/WwiseAudio/Event' in FModel
   3. Then extract the entire 'Event' folder as .jsons
   4. Place these .json files into the '0-JSONs' folder
+- Improved processing capability of Option 2 (Creating A Mod Folder)
+  1. In older versions of the script, some .wem files would not be properly processed
+  2. These cases have been fixed, though more may reveal themselves later
+  3. They will also be patched when it is brought to my attention
 
 - Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
 - Created 'x100-XTRAs-Are-Here' folder
@@ -199,7 +203,6 @@ For soundMod_TK v2.0.0
   1. This option allows users to convert wav files to wem files
   2. Simply place the wav files into '0-Put-CUSTOM-WAVS-Here' then choose option 0 of the script
   3. Wem files will be output into '2-Put-CUSTOM-WEMs-Here'
-
 
 -----------------------------------------------------
 -----------------------------------------------------
