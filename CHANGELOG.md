@@ -147,7 +147,6 @@ For General
 - Renamed 'soundMod_TK_v1.2.2' to 'SMT_TK'. This folder will no longer have its own version
 - Chnaged 'zzz_CHANGELOG.json' to 'CHANGELOG.md'
 - Changed 'zz_READ_THIS_FIRST.txt' to 'README.md'
-  
 
 For soundMod_TK v2.0.0
 - Overhauled UI (Is now consistent with my other tools, soundKit_MR and soundKit_SB)
@@ -161,10 +160,16 @@ For soundMod_TK v2.0.0
   2. Simply go to 'Polaris/Content/WwiseAudio/Event' in FModel
   3. Then extract the entire 'Event' folder as .jsons
   4. Place these .json files into the '0-JSONs' folder
+ 
 - Improved processing capability of Option 2 (Creating A Mod Folder)
   1. In older versions of the script, some .wem files would not be properly processed
   2. These cases have been fixed, though more may reveal themselves later
   3. They will also be patched when it is brought to my attention
+ 
+- Adjusted Option 2 to output into '3-Your-MOD-FOLDERS-Are-Here'
+  1. If Option 2 is executed consecutive times with no change to folder structure in '2-Put-CUSTOM-WEMs-Here',
+     then subsequent 'z_(Name)_9999999_P' outputs folders will be renamed incrementally
+  i.e: 'z_(Name)_9999999_P', 'z_(Name)_1_9999999_P', 'z_(Name)_2_9999999_P', etc.
 
 - Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
 - Created 'x100-XTRAs-Are-Here' folder
@@ -190,7 +195,11 @@ For soundMod_TK v2.0.0
 - Changed 'Option 100' to 'Option 102'
 - Changed '4-TXTPs-With-Matching-WEM-IDs-Are-Here-(DEV)' to 'x102-SEARCHED-Wem-Stuff'
   Moved this inside of 'x100-XTRAs-Are-Here'
-- Changed Option 102 to accomodate the new folder path  
+- Changed Option 102 to accomodate the new folder path
+- Added 'Play_BGM_Container.json' support
+  1. Now, wem IDs that are found in this file (likely for music) can be searched
+  2. A 'Play_BGM_Container-######.json' file will be output into 'x102-SEARCHED-Wem-Stuff'
+  3. It will contain the .wem ID as well as the interal music track name (and other, currently irrelevant data)
 
 - Changed '3-Wems-And-Txtps-With-Issues-Are-Copied-Here' to 'x200-ERROR-FILEs-Are-Here'
 - Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-JSON-MATCH-Here'
