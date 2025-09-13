@@ -171,6 +171,8 @@ For soundMod_TK v2.0.0
   1. If Option 2 is executed consecutive times with no change to folder structure in '2-Put-CUSTOM-WEMs-Here',
      then subsequent 'z_(Name)_9999999_P' outputs folders will be renamed incrementally
   i.e: 'z_(Name)_9999999_P', 'z_(Name)_1_9999999_P', 'z_(Name)_2_9999999_P', etc.
+- Adjusted Option 2 to move error wem files to the error folder(s) instead of merely copying them
+- Adjusted Option 2 to be able to process wem files that are already renamed to the numerical ID
 
 - Changed '4-Put-Custom-Wems-Here' to '2-Put-CUSTOM-WEMs-Here'
 - Created 'x100-XTRAs-Are-Here' folder
@@ -204,10 +206,14 @@ For soundMod_TK v2.0.0
   3. It will contain the .wem ID as well as the interal music track name (and other, currently irrelevant data)
 
 - Changed '3-Wems-And-Txtps-With-Issues-Are-Copied-Here' to 'x200-ERROR-FILEs-Are-Here'
-- Changed 'Wems-With-No-Txtp-Match' to 'x204-Wems-With-NO-JSON-MATCH-Here'
-- Changed 'Txtps-With-No-WEM-References' to 'x203-JSONs-With-NO-WEM-REFERENCE'
-- Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-JSONs-With-OTHER-ERROR-Here'
 - Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-JSONs-With-DUPE-WEM-IDs-Here'
+  A '.List-Of-JSONs-That-Share-A-Wem-ID.json' file will be generated here
+  This file will show exactly which jsons shared wem IDs, and which jsons were USED or SKIPPED during Option 1
+- Changed 'Txtps-With-No-WEM-References' to 'x203-JSONs-With-NO-WEM-REFERENCE'
+- Changed 'Wems-With-No-Txtp-Match' to 'x204a-BASE-Wems-With-NO-JSON-MATCH-Here' and 'x204b-CUSTOM-Wems-With-NO-JSON-MATCH-Here'
+  No JSON Match Wems found during Option 1 processing will go into the 'x204a' folder
+  No JSON Match Wems found during Option 2 processing will go into the 'x204b' folder
+- Changed 'Txtps-Skipped-Due-To-Other-Errors' to 'x205-JSONs-With-OTHER-ERROR-Here'
 
 - Added '0-Put-CUSTOM-WAVS-Here' folder
 - Added Option 0
