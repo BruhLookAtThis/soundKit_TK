@@ -155,18 +155,21 @@ For soundMod_TK v2.0.0
 - Changed '2-Put-TXTP-Files-Here' to '0-JSONS', moved it inside of '0_XTRA'
 - Adjusted script to accomodate subfoldered files in '0-JSONS' and '0-MEDIA'
 
-- Changed all functions to work with .json files instead of .txtp files
+- Changed all functions to work with extracted .json files instead of generated .txtp files
   1. This makes it simpler to extract the information needed to rename .wem files,
      as these .jsons can be obtained directly from FModel itself
   2. Simply go to 'Polaris/Content/WwiseAudio/Event' in FModel
   3. Then extract the entire 'Event' folder as .jsons
   4. Place these .json files into the '0-JSONs' folder
- 
+
+- Adjusted Option 1 to generate a 'WEM-ID-CHART.txt' file in the '0-TOOLS' folder
+  This file contains all renamed wem IDs matched up to their original numerical wem IDs
+  Useless for...something lol. Tired af writing this
+  Oh, Option 102 can reference this to find...stuff (again, tired af)
 - Improved processing capability of Option 2 (Creating A Mod Folder)
   1. In older versions of the script, some .wem files would not be properly processed
   2. These cases have been fixed, though more may reveal themselves later
   3. They will also be patched when it is brought to my attention
- 
 - Adjusted Option 2 to output into '3-Your-MOD-FOLDERS-Are-Here'
   1. If Option 2 is executed consecutive times with no change to folder structure in '2-Put-CUSTOM-WEMs-Here',
      then subsequent 'z_(Name)_9999999_P' outputs folders will be renamed incrementally
@@ -183,6 +186,19 @@ For soundMod_TK v2.0.0
   Moved both of these inside of 'x103-TEST-Wem-Stuff'
 - Changed 'Option 3' to 'Option 103'
 - Changed Option 103 to accomodate the new folder paths
+
+- Changed 'Option 100' to 'Option 102'
+- Changed '4-TXTPs-With-Matching-WEM-IDs-Are-Here-(DEV)' to 'x102-SEARCHED-Wem-Stuff'
+  Moved this inside of 'x100-XTRAs-Are-Here'
+- Moved 'Play_BGM_Container.json' to '0-TOOLS'  
+- Changed Option 102 to accomodate the new folder path
+- Added 'Play_BGM_Container.json' support
+  1. Now, wem IDs that are found in this file (likely for music) can be searched
+  2. A 'Play_BGM_Container-######.json' file will be output into 'x102-SEARCHED-Wem-Stuff'
+  3. It will contain the .wem ID as well as the interal music track name (and other, currently irrelevant data)
+- Added support to search renamed wem file names
+  Not sure what this will be useful for, but I added it anyway lol
+  You can search the names and get a json with the correspodning wem ID in its name
  
 - Changed how Option 103 functions
   1. Previously, test file creation was limited to the amount of test wems available in the Tests folder
@@ -194,16 +210,6 @@ For soundMod_TK v2.0.0
   Moved both of these inside of 'x104-SILENT-Wem-Stuff'
 - Changed 'Option 4' to 'Option 104'
 - Changed Option 104 to accomodate the new folder paths
-
-- Changed 'Option 100' to 'Option 102'
-- Changed '4-TXTPs-With-Matching-WEM-IDs-Are-Here-(DEV)' to 'x102-SEARCHED-Wem-Stuff'
-  Moved this inside of 'x100-XTRAs-Are-Here'
-- Moved 'Play_BGM_Container.json' to '0-TOOLS'  
-- Changed Option 102 to accomodate the new folder path
-- Added 'Play_BGM_Container.json' support
-  1. Now, wem IDs that are found in this file (likely for music) can be searched
-  2. A 'Play_BGM_Container-######.json' file will be output into 'x102-SEARCHED-Wem-Stuff'
-  3. It will contain the .wem ID as well as the interal music track name (and other, currently irrelevant data)
 
 - Changed '3-Wems-And-Txtps-With-Issues-Are-Copied-Here' to 'x200-ERROR-FILEs-Are-Here'
 - Changed 'Txtps-Skipped-Due-To-Duplicate-Wem-ID(s)' to 'x202-JSONs-With-DUPE-WEM-IDs-Here'
