@@ -148,7 +148,7 @@ For General
 - Chnaged 'zzz_CHANGELOG.json' to 'CHANGELOG.md'
 - Changed 'zz_READ_THIS_FIRST.txt' to 'README.md'
 
-For soundMod_TK v2.0.0
+For SMT
 - Overhauled UI (Is now consistent with my other tools, soundKit_MR and soundKit_SB)
 - Changed '1_Extras' to '0_XTRA'
 - Changed '1-Put-Media-Wems-Here' to '0-MEDIA', moved it inside of '0_XTRA'
