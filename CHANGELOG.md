@@ -227,5 +227,7 @@ For SMT
   2. Simply place the wav files into '0-Put-CUSTOM-WAVS-Here' then choose option 0 of the script
   3. Wem files will be output into '2-Put-CUSTOM-WEMs-Here'
 
+- Added a 'DebugName_Errors.log' file in the '0-TOOLS' folder
+  This will contain general processing logs for all you nosy geeks out there lol
 -----------------------------------------------------
 -----------------------------------------------------
