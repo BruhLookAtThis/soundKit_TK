@@ -229,5 +229,9 @@ For SMT
 
 - Added a 'DebugName_Errors.log' file in the '0-TOOLS' folder
   This will contain general processing logs for all you nosy geeks out there lol
+
+- Added Option 105
+- This option allows quick replacement of multiple wem files with a single reference file
+- Useful for changing a lot of files to a single sound effect  
 -----------------------------------------------------
 -----------------------------------------------------
