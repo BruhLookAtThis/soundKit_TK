@@ -1,1 +1,263 @@
-Will Be Populated Later...
+----------------------------------------------------------------
+CREDITS:
+----------------------------------------------------------------
+
+❕토 Tobi 비❕ / BruhLookAtThis (Spare Change?: https://linktr.ee/BruhLookAtThis)
+
+----------------------------------------------------------------
+CREATOR NOTES (Moving the big read to the bottom of the page, since it's a lot)
+----------------------------------------------------------------
+
+- This tool has a special naming scheme done to some wem files, so it's not 100% compatible with other
+  pre-renamed wem files you may have gotten from other tools.
+
+Tekken 8 Modding Discord link:
+https://discord.gg/nCAeJE4z5U
+
+----------------------------------------------------------------
+BASICS:
+----------------------------------------------------------------
+
+1. Right Click the file thats named 'z1_RunMeInPowershell_SMT_TK.ps1'
+2. Click 'Run In Powershell'
+3. A Powershell window will open
+4. Select one of the Info Options to learn what each option does, how to use them, and extra notes it may have
+
+----------------------------------------------------------------
+WARNINGS:
+----------------------------------------------------------------
+
+1. Dont touch the contents of the file thats named 'z1_RunMeInPowershell_SMT'
+2. Do NOT try to use this tool inside of a folder that has spaces or special characters in its name
+   This includes ANY folder in the path leading to the tool
+   Good Example: 'D:\Folder1\Folder2\Folder3\soundkit_TK_v99\' is good to go, because there are no spaces OR special characters in the path folders
+   Bad Example: 'D:\Folder 1\Folder2\Folder#\soundkit_TK_v99\' is not good to go, because it has a space and a special character in the path folders
+
+----------------------------------------------------------------
+TROUBLESHOOTING:
+----------------------------------------------------------------
+
+1. If you have any questions, hit the discord buddy: https://discord.gg/nCAeJE4z5U
+2. If you run the .ps1 file in Powershell and it immediately closed:
+    -Type 'powershell' in the File Explorer url and hit Enter
+    -A Powershell window will open. Paste this in it and hit Enter:
+
+     .\z1_RunMeInPowershell_SMT_TK.ps1
+
+    -You should be able to clearly see an error message now without the window immediately closing 
+
+2b. If you get an error/warning about Execution Policy when running the .ps1 file
+    - Double click 'z2_DoubleClickMe_SMT_TK.bat'
+     (If you dont see the .bat at the end of the file's name, Google 'How To Enable File Extensions'
+     and follow the instructions for your OS version)
+    - A CMD window will appear and the process will (or should lol) begin
+
+    IF THIS DOES NOT WORK, GOOGLE 'HOW TO CHANGE POWERSHELL EXECUTION POLICY' AND FOLLOW THE STEPS FOR YOUR OS VERSION (Windows 10, Windows 11, etc)
+
+2c. If you get an error/warning about something 'not being recognized as a valid command' or whatever
+     -Make sure the path to this tool doesnt have folders that contain spaces or special characters in their names (See the WARNINGS section)
+     
+3. If you used an Option from the .ps1/.bat and nothing new showed up in any folders, make sure you updated your FModel to the latest version available.
+    -At the top of FModel, go to Help > Releases.
+    -Download the latest Release
+    -Re-export your files from FModel, and then try again
+
+4. If it's still not working, you probably...*SPOILER* smh. Shame on you!
+
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+INFO ABOUT THIS TOOLS OPTIONS:
+----------------------------------------------------------------
+----------------------------------------------------------------
+----------------------------------------------------------------
+
+Info About Option 0: Convert WAV Files to WEM Files
+            
+            - Converts custom .wav audio files into .wem files.
+           
+            =====================================
+             INSTRUCTIONS:
+            
+            - Place your custom .wav files in '0-Put-CUSTOM-WAVS-Here'. You can organize them in subfolders (e.g., 'MyModFiles\SFX').
+            - Run Option 0 of this script.
+            - The script converts .wav files to .wem files, placing them in '2-Put-CUSTOM-WEMs-Here'.
+            
+            =====================================
+            NOTES:
+            
+            - WAV files should be 16-bit PCM, 48 kHz, mono for best compatibility. Use Audacity to convert if needed.
+            - A 5-10 ms fade-in can prevent audio popping; the script applies this by default.
+
+Info About Option 1: Create Renamed WEM Files from JSONs
+    
+    - Renames Media .wem files based on matched .JSON files, then organizes them.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - In Fmodel, Navigate to 'Polaris/Content/WwiseAudio/Media'
+    - Left click on the Media folder, then right click it
+    - Select Export Folder's Packages Raw Data (.uasset)
+    - Place the exported Media folder into '0_XTRA\0-MEDIA'.
+    
+    - In Fmodel, Navigate to 'Polaris/Content/WwiseAudio/Event'
+    - Left click on the Media folder, then right click it
+    - Select Save Folder's Packages Properties (.json)
+    - Place the exported Media folder into '0_XTRA\0-JSONS'.
+    
+    - In Fmodel, Navigate to 'Polaris/Content/Sound/Bgm/Play_BGM_Container'
+    - Left click on the 'Play_BGM_Container' file, then right click it
+    - Select Save Folder's Packages Properties (.json)
+    - Place the exported .json file into '0_XTRA\0-TOOLS'.
+    
+    - Ensure 'CHARACTER-ID-LIST.txt' is in '0_XTRA\0-TOOLS' to map codenames to output folder names (e.g., '_BGM_: SOUND - Music').
+    - Ensure 'Play_BGM_Container.json' is in '0_XTRA\0-TOOLS' for BGM renaming.
+    
+    - Select Option 1 in the script.
+    - Renamed .wem files are saved to '1-RENAMED-Media-Wems-Here'.
+    - Unmatched .wem files are copied to 'x200-ERROR-FILEs-Are-Here\x204a-BASE-Wems-With-NO-JSON-MATCH-Here'.
+    - Problematic .JSON files are copied to 'x200-ERROR-FILEs-Are-Here' in subfolders:
+      - 'x202-JSONs-With-DUPE-WEM-IDs-Here': JSONs with duplicate WEM IDs.
+      - 'x203-JSONs-With-NO-WEM-REFERENCE': JSONs with no WEM IDs.
+      - 'x205-JSONs-With-OTHER-ERROR-Here': JSONs with read errors.
+    
+    =====================================
+    NOTES:
+    
+      For .JSON files referencing multiple WEMs, files are named with suffixes (e.g., 'song_Wem1.wem', 'song_Wem2.wem').
+    - If 'CHARACTER-ID-LIST.txt' is provided, renamed files are sorted into character or category folders (e.g., 'SOUND - Music' for BGM).
+    - For BGM files, if 'Play_BGM_Container.json' is present, WEMs are renamed using the 'DebugName' (e.g., 'TR_13_stage43_Brasil_intro.wem').
+    - A '.List-Of-JSONs-That-Share-A-Wem-ID.json' file is generated if multiple JSONs share the same WEM ID.
+      That file will be placed into 'x202-JSONs-With-DUPE-WEM-IDs-Here'
+    - Errors are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log' for troubleshooting.
+    
+    =====================================
+    
+Info About Option 2: Create Mod Folders from Custom WEMs ===
+    
+    - Creates pak-ready mod folders, and places valid custom .wem files into them.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - It is highly recommended to perform Option 1 first
+    - This will provide you with a folder of renamed wem files named '1-RENAMED-Media-Wems-Here'
+    
+    - In Fmodel, Navigate to 'Polaris/Content/WwiseAudio/Event'
+    - Left click on the Media folder, then right click it
+    - Select Save Folder's Packages Properties (.json)
+    - Place the exported Media folder into '0_XTRA\0-JSONS'.
+    
+    - In Fmodel, Navigate to 'Polaris/Content/Sound/Bgm/Play_BGM_Container'
+    - Left click on the 'Play_BGM_Container' file, then right click it
+    - Select Save Folder's Packages Properties (.json)
+    - Place the exported .json file into '0_XTRA\0-TOOLS'.
+    
+    - Place your custom .wem files in '2-Put-CUSTOM-WEMs-Here'.
+    - These custom .wem files' names should match the file from '1-RENAMED-Media-Wems-Here' that is being replaced.
+      For Example: If you are replacing 'Play_SNK_BowBow.wem', then your custom wem should be named 'Play_SNK_BowBow.wem'.
+    - Run Option 2 of this script.
+    - Mod folders will be created in '3-Your-MOD-FOLDERS-Are-Here'
+      If you didnt have any wems within subfolders in the '2-Put-CUSTOM-WEMs-Here' folder
+      then your mods will be output into a 'z_YourMod_9999999_P' folder
+      If you did have any wems within subfolders in the '2-Put-CUSTOM-WEMs-Here' folder
+      then your mods will be output into a 'z_(SubFolderName)_9999999_P' folder
+    - Output mod folders follow the structure: 'Polaris\Content\WwiseAudio\Media'.
+    - From here, you take these folders and process them with a pak'ing tool like UnrealPak
+    
+    =====================================
+     NOTES:
+    
+    - Errors and unmatched files are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log'.
+
+Info About Option 102: *SEARCH* JSONs for WEM ID ===
+    
+     Searches .json files for references to specific WEM IDs you input.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - Place your .json files in '$jsonFilesDir'.
+    - Select Option 102 in the script.
+    - Enter one or more WEM IDs (decimal numbers, separated by commas, e.g., '123456,789012').
+    - Matching .json files are copied to '$searchOutputDir'.
+    
+    =====================================
+     NOTES:
+    
+    - Skipped files (e.g., due to read errors) are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log'.
+    - Use this option to identify which .json files reference specific audio assets.
+    - The search matches exact SourceId values (e.g., '123456').
+    - Press Enter without input to return to the main menu.
+    
+    =====================================
+    
+Info About Option 103: Create *TEST* Wem Files ===
+    
+     This option creates test .wem files by copying test files over your source .wem files.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - Place your .wem file(s) in 'x100-XTRAs-Are-Here\x103-TEST-Wem-Stuff\A-Put-Wems-To-TEST-Here'.
+    - Ensure test .wem files are in '0_XTRA\0-TESTS'.
+    - Select Option 103 in this script.
+    - The script copies test files to match your source .wem files, preserving folder structure.
+    - Output is placed in 'x100-XTRAs-Are-Here\x103-TEST-Wem-Stuff\B-Your-New-TEST-Wems-Are-Here'.
+    
+    =====================================
+    NOTES:
+    
+    - If the number of test files exceeds the number of source .wem files, the script will reuse some test files.
+    - The number in the '_test#' of the filename will be the audio that plays in game
+    - So for example: In 'Play_SNK_Example-test1.wem', the sound that will play when this file triggers is 'ONE'.
+    - Use this to create placeholder .wem files for pinpointing sounds.
+    - Errors are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log'.
+    
+    =====================================
+
+Info About Option 104: Create *SILENT* Wem Files ===
+    
+     This option creates silent .wem files by replacing your input .wem files with a silent .wem file.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - Place your .wem file(s) in 'x100-XTRAs-Are-Here\x104-SILENT-Wem-Stuff\A-Put-Wems-To-SILENCE-Here'.
+    - Ensure '0-Silent.wem' is in '0_XTRA\0-TESTS'.
+    - Select Option 104 in this script.
+    - The script copies '0-Silent.wem' to match the name of your source .wem files, preserving folder structure.
+    - Output is placed in 'x100-XTRAs-Are-Here\x104-SILENT-Wem-Stuff\B-Your-Newly-SILENCED-Wems-Are-Here'.
+    
+    =====================================
+     NOTES:
+    
+    - Errors are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log'.
+    
+    =====================================
+
+Info About Option 105: *REPLACE* Multiple Wems With One Wem File === -ForegroundColor Cyan
+    
+    Replaces multiple .wem files with a single .wem file, copying it with the names of the input files.
+    
+    =====================================
+     INSTRUCTIONS:
+    
+    - Place the .wem files you want to replace in:
+      'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\A-Put-Wems-To-REPLACE-Here' -ForegroundColor Yellow
+    - Place exactly one .wem file (the replacement audio) in:
+      'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\B-Put-The-REPLACEMENT-Wem-Here' -ForegroundColor Yellow
+    - Select Option 105 in the script.
+    - The script copies the replacement .wem file to match the names and folder structure of the input files.
+    - Output is placed in 'x100-XTRAs-Are-Here\x105-REPLACED-Wem-Stuff\C-Your-New-REPLACED-Wems-Are-Here'.
+    
+    =====================================
+     NOTES:
+    
+    - Use this option to replace multiple audio files with the same audio (e.g., for testing or silencing multiple sounds).
+    - The input folder can contain subfolders; the script preserves the folder structure in the output.
+    - Ensure exactly one .wem file is in the replacement folder, or the script will show an error.
+    - Errors are logged to 'x200-ERROR-FILEs-Are-Here\DebugName_Errors.log'.
+    
+    =====================================
