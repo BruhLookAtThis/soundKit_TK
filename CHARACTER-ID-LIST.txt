@@ -13,7 +13,7 @@ CODENAME LIST (Updated as of 9-14-25)
 # You can add your own terms and folder names easily, just follow the same exact structure 
 # If you want, you can change these pre-existing terms/folder names, but I do not recommend that 
 
-# If you haven't noticed, all of these sentences have started with a hashtag
+# If you haven't noticed, some of these sentences have started with a hashtag
 # That is because the script will ignore lines that start with a hashtag /EVEN IF that line includes a colon/
 # This allows you to make notes underneath entries in case you want to...well, leave a note lol
 # Technically, the script will ignore ANY line /that DOESN'T contain a colon/
