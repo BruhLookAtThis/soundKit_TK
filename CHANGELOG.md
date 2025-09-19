@@ -139,7 +139,7 @@ For soundMod_TK v1.2.2
 -----------------------------------------------------
 -----------------------------------------------------
 
-UPDATE 2.0.0 (NOT RELEASED YET)
+UPDATE 2.0.0
 
 For General
 - Removed '.OLD-TOOLS-ONLY-USE-IF-NECESSARY' folder, no longer necessary
