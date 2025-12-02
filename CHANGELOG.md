@@ -235,3 +235,15 @@ For SMT
 - Useful for changing a lot of files to a single sound effect  
 -----------------------------------------------------
 -----------------------------------------------------
+
+UPDATE 2.0.1
+
+For General
+- Updated 'CHARACTER-ID-LIST.txt' for Armor King
+-----------------------------------------------------
+-----------------------------------------------------
+
+UPDATE 2.0.1b
+
+For General
+- Updated 'CHARACTER-ID-LIST.txt' for Miary Zo
