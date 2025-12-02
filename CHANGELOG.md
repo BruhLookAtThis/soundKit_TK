@@ -247,3 +247,4 @@ UPDATE 2.0.1b
 
 For General
 - Updated 'CHARACTER-ID-LIST.txt' for Miary Zo
+- Reorganized Character ID List to put the main cast into alphabetical order 
