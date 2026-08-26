@@ -223,18 +223,38 @@ For SMT
 - Added Option 105
 - This option allows quick replacement of multiple wem files with a single reference file
 - Useful for changing a lot of files to a single sound effect
-- 
+  
 -----------------------------------------------------
 -----------------------------------------------------
 UPDATE 2.0.1
 
 For General
 - Updated 'CHARACTER-ID-LIST.txt' for Armor King
-- 
+  
 -----------------------------------------------------
 -----------------------------------------------------
 UPDATE 2.0.1b
 
 For General
 - Updated 'CHARACTER-ID-LIST.txt' for Miary Zo
-- Reorganized Character ID List to put the main cast into alphabetical order 
+- Reorganized Character ID List to put the main cast into alphabetical order
+
+-----------------------------------------------------
+-----------------------------------------------------
+UPDATE 2.0.1c
+
+For General
+- Updated 'CHARACTER-ID-LIST.txt' for Armor King, fixed typo for Miary Zo
+  
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.0.1d (08-26-2026)
+### 
+
+For General
+- Updated 'CHARACTER-ID-LIST.txt' for Bob
+- Added auto-download of `CHARACTER-ID-LIST.txt` when executing Option 1
+  - `CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/CHARACTER-ID-LIST.txt
+- Small Main Menu UI adjustments
+
+### NOTE: This is NOT heavily tested!
