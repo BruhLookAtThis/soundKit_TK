@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
-CODENAME LIST (Updated as of 9-14-25)
+CODENAME LIST (Updated as of 8-26-26)
 ----------------------------------------------------------------
 # EXPLANATION:
 # When using Option 1 of the script, it renames wems from the Media folder and organzies them into folders.
@@ -96,6 +96,7 @@ _MNT_: CHARA - Alisa (MNT)
 _KGR_: CHARA - Anna (KGR)
 _DER_: CHARA - Asuka (DER)
 _CAT_: CHARA - Azucena (CAT)
+_USI_: CHARA - Bob (USI)
 _CHT_: CHARA - Bryan (CHT)
 _CTR_: CHARA - Claudio (CTR)
 _OKM_: CHARA - Clive (OKM)
@@ -121,7 +122,7 @@ _SE_JLY_DOG_: CHARA - Leroy (JLY)
 _CBR_: CHARA - Lidia (CBR)
 _HMS_: CHARA - Lili (HMS)
 _RAT_: CHARA - Ling Xiaoyu (RAT)
-_WKZ_: CHAQRA - Miary Zo (WKZ)
+_WKZ_: CHARA - Miary Zo (WKZ)
 _KAL_: CHARA - Nina (KAL)
 _GRF_: CHARA - Paul (GRF)
 _TTR_: CHARA - Panda (TTR)
