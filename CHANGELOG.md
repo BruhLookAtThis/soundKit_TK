@@ -6,7 +6,6 @@ UPDATE 1 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.0.1 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundMod
@@ -15,7 +14,6 @@ For soundMod
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 Update 1.0.2 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundFinder
@@ -23,7 +21,6 @@ For soundFinder
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 Update 1.0.2b (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundMod
@@ -31,7 +28,6 @@ For soundMod
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 Update 1.0.3 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundMod
@@ -42,7 +38,6 @@ For soundMod
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.1.0 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundMod
@@ -59,7 +54,6 @@ General
 
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.1.1 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For General
@@ -93,7 +87,6 @@ For soundMod_TK 1.1.1
   
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.2.0 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For General
@@ -115,7 +108,6 @@ i.e. '661589587' is first renamed to 'Play_BGM_Container (1964107455=54782393)(1
     
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.2.1 (NOT AVAILABLE. LOGGING FOR LEGACY REASONS)
 
 For soundMod_TK v1.2.1
@@ -125,7 +117,6 @@ For soundMod_TK v1.2.1
      
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 1.2.2
 
 Initial Github release
@@ -138,7 +129,6 @@ For soundMod_TK v1.2.2
        
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 2.0.0
 
 For General
@@ -232,17 +222,17 @@ For SMT
 
 - Added Option 105
 - This option allows quick replacement of multiple wem files with a single reference file
-- Useful for changing a lot of files to a single sound effect  
+- Useful for changing a lot of files to a single sound effect
+- 
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 2.0.1
 
 For General
 - Updated 'CHARACTER-ID-LIST.txt' for Armor King
+- 
 -----------------------------------------------------
 -----------------------------------------------------
-
 UPDATE 2.0.1b
 
 For General
