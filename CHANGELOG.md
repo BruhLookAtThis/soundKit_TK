@@ -251,10 +251,36 @@ For General
 UPDATE 2.0.1d (08-26-2026)
 ### 
 
-For General
-- Updated 'CHARACTER-ID-LIST.txt' for Bob
+### For General
+- Updated `CHARACTER-ID-LIST.txt` for Bob
 - Added auto-download of `CHARACTER-ID-LIST.txt` when executing Option 1
   - `CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/CHARACTER-ID-LIST.txt
 - Small Main Menu UI adjustments
+
+### NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE 2.0.2 (08-30-2026)
+### 
+
+### For General
+- Added auto-download of `Tekken8-UE5-Polaris.usmap`, `CHANGELOG.md`, `LICENSE.md`, `README.md` (if missing) upon script startup
+  - `Tekken8-UE5-Polaris.usmap` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/Tekken8-UE5-Polaris.usmap
+  - `README.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/Tekken8-UE5-Polaris.usmap
+  - `CHANGELOG.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/CHANGELOG.md
+  - `LICENSE.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/LICENSE.md
+  - File is placed into `0_XTRA\1-MISC-STUFF`
+    
+- Added auto-download of `0-TESTS.zip` (if existing `0-TESTS` folder is empty or completely missing) upon script startup
+  - `0-TESTS.zip` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/0-TESTS.zip
+  - File is placed into `0_XTRA\`
+ 
+- Added auto-download of `z2_DoubleClickMe_SMT_TK.bat` and `zz_INSTRUCTIONS_SMT_TK.txt` (if missing) upon script startup
+  - `zz_INSTRUCTIONS_SMT_TK.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/zz_INSTRUCTIONS_SMT_TK.txt
+  - `z2_DoubleClickMe_SMT_TK.bat` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/z2_DoubleClickMe_SMT_TK.bat
+  - File is placed into `0_XTRA\`
+ 
+
 
 ### NOTE: This is NOT heavily tested!
