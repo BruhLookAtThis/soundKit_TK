@@ -265,6 +265,11 @@ UPDATE 2.0.2 (08-30-2026)
 ### 
 
 ### For General
+- Adjusted `z2_DoubleClickMe_SDKT_MT.bat` to work more reliably
+- Removed `CHANGELOG.md`, `LICENSE.md`, and `README.md` from `soundKit_TK.zip` root folder
+
+### For SMT
+- Upgraded Option 0 to support `.mp3`, `.flac`, `.ogg`, and .`m4a` audio file inputs
 - Added auto-download of `Tekken8-UE5-Polaris.usmap`, `CHANGELOG.md`, `LICENSE.md`, `README.md` (if missing) upon script startup
   - `Tekken8-UE5-Polaris.usmap` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/Tekken8-UE5-Polaris.usmap
   - `README.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/Tekken8-UE5-Polaris.usmap
@@ -281,6 +286,15 @@ UPDATE 2.0.2 (08-30-2026)
   - `z2_DoubleClickMe_SMT_TK.bat` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/z2_DoubleClickMe_SMT_TK.bat
   - File is placed into `0_XTRA\`
  
-
-
 ### NOTE: This is NOT heavily tested!
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
+### 
+
+### For General
+
+### For SMT
+
+### NOTE: This is NOT heavily tested!  
