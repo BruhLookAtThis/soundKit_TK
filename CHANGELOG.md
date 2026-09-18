@@ -301,6 +301,8 @@ UPDATE 2.0.2 (08-30-2026)
 - Added `wav2wem.exe` to script startup auto-download and Option U download
   - `wav2wem.exe` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/wav2wem.exe
 
+- Updated some UI elements
+- Updated Info Options
 
 NOTE: This is NOT heavily tested!  
 
