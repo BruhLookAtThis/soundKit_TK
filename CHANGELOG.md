@@ -311,7 +311,7 @@ UPDATE 2.0.2 (08-30-2026)
 - Updated some UI elements
 - Updated Info Options
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_XTRA\.IGNORE-THIS-FOLDER\` 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
@@ -321,4 +321,4 @@ NOTE: This is NOT heavily tested!
 
 ### For SMT
 
-NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_XTRA\.IGNORE-THIS-FOLDER\`
