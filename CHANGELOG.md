@@ -290,11 +290,26 @@ UPDATE 2.0.2 (08-30-2026)
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
-### 
+## UPDATE 2.0.3 (09-17-2026) (NOT RELEASED YET, `BUG TESTING`)
+
+### For General
+
+### For SMT
+- Added new backend for Vorbis `.wem` creation
+  - Users no longer need to download the AudioKinetic or other related files
+  - Now the script creates Vorbis `.wems`, so long as wav2wem.exe remains in `\0_DATA\0-TOOLS-ALL\0-WAV2WEM\`
+- Added `wav2wem.exe` to script startup auto-download and Option U download
+  - `wav2wem.exe` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/wav2wem.exe
+
+
+NOTE: This is NOT heavily tested!  
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
+## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
 
 ### For SMT
 
-### NOTE: This is NOT heavily tested!  
+NOTE: This is NOT heavily tested!  
