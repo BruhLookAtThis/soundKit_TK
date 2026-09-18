@@ -21,12 +21,44 @@ MAKE SURE YOU READ THE INSTRUCTIONS IN EACH FOLDER (If theyre outdated, they wil
 --------------------------------------------------------------
 CREDITS:
 
-BruhLookAtThis / ❕토 Tobi 비❕ [(Spare Change?)](https://linktr.ee/BruhLookAtThis)
+- Tobi (BruhlookAtThis) - SoundKit Creator [Buy Me A Coffee](<https://ko-fi.com/bruhlookatthis>)
+- peek6 - Prior Audio Modding Research
+- Fabrice Bellard - FFmpeg/FFmprobe
+- Pas2k - wav2wem
 
 --------------------------------------------------------------
 ## Licensing
 
-soundKit_TK is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE.md) for details.
-This tool uses FFmpeg version 7.1.1, licensed under the GPL v3. FFmpeg is a trademark of Fabrice Bellard. The FFmpeg source code is available [here](https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1).
+### soundKit_TK
+- **License**: GNU General Public License v3.0 
+- **Description**: soundKit_TK is a tool kit for modding sounds in Tekken 8, including organizing, renaming, manipulating, and compiling audio & text files. 
+- **Project homepage**: https://github.com/BruhLookAtThis/soundKit_TK
+- **Main developers/maintainers**: BruhLookAtThis  
+- **Source code**: https://github.com/BruhLookAtThis/soundKit_TK/releases
+
+--------------------------------------------------------------
+
+## Third-Party Dependencies / Licensing
+
+This tool includes and redistributes the following open-source components:
+
+### FFmpeg / ffprobe
+- **License**: GNU Lesser General Public License version 2.1 or later (LGPL v2.1+)
+- **Description**: Multimedia framework for decoding, encoding, and processing audio/video.  
+- **Project homepage**: https://ffmpeg.org  
+- **Version used**: 7.1.1  
+- **Source code**: https://github.com/FFmpeg/FFmpeg/releases/tag/n7.1.1
+- **Direct Download**: https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip
+- FFmpeg is a trademark of Fabrice Bellard.
+
+--------------------------------------------------------------
+
+### wav2wem.exe
+- **License**: GNU General Public License v2.0
+- **Description**: Tool to convert WAV/FLAC into aoTuV Wwise .wem files.  
+- **Project homepage**: https://github.com/pas2k/wav2wem
+- **Version used**: 0.1 (Built the included .exe locally)
+- **Source code**: https://github.com/pas2k/wav2wem/releases/tag/v0.1
+- **Direct Download**: https://github.com/pas2k/wav2wem/releases/download/v0.1/wav2wem.exe
 
 --------------------------------------------------------------
