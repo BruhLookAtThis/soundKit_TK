@@ -275,22 +275,26 @@ UPDATE 2.0.2 (08-30-2026)
   - `README.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/Tekken8-UE5-Polaris.usmap
   - `CHANGELOG.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/CHANGELOG.md
   - `LICENSE.md` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/LICENSE.md
-  - File is placed into `0_XTRA\1-MISC-STUFF`
+  - Files are placed into `0_XTRA\1-MISC-STUFF`
     
 - Added auto-download of `0-TESTS.zip` (if existing `0-TESTS` folder is empty or completely missing) upon script startup
   - `0-TESTS.zip` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/0-TESTS.zip
-  - File is placed into `0_XTRA\`
+  - File is extracted into `0_XTRA\`
  
 - Added auto-download of `z2_DoubleClickMe_SMT_TK.bat` and `zz_INSTRUCTIONS_SMT_TK.txt` (if missing) upon script startup
   - `zz_INSTRUCTIONS_SMT_TK.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/zz_INSTRUCTIONS_SMT_TK.txt
   - `z2_DoubleClickMe_SMT_TK.bat` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/z2_DoubleClickMe_SMT_TK.bat
-  - File is placed into `0_XTRA\`
+  - Files are placed into the same directory that the script is located
+
+ - Added auto-download of `ffmpeg.exe` AND `ffprobe.exe` (if missing) upon script startup
+   - ffmpeg.exe/ffprobe.exe (https://github.com/GyanD/codexffmpeg/releases/download/7.1.1/ffmpeg-7.1.1-essentials_build.zip)
+   - Files are placed into `\0_XTRA\0-TOOLS\`
  
 ### NOTE: This is NOT heavily tested!
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
-## UPDATE 2.0.3 (09-17-2026) (NOT RELEASED YET, `BUG TESTING`)
+## UPDATE 2.0.3 (09-17-2026)
 
 ### For General
 
@@ -300,6 +304,9 @@ UPDATE 2.0.2 (08-30-2026)
   - Now the script creates Vorbis `.wems`, so long as wav2wem.exe remains in `\0_DATA\0-TOOLS-ALL\0-WAV2WEM\`
 - Added `wav2wem.exe` to script startup auto-download and Option U download
   - `wav2wem.exe` is pulled from here: https://github.com/BruhLookAtThis/soundKit_MR/blob/main/wav2wem.exe
+ 
+- Added auto-download of `CHARACTER-ID-LIST.txt` (if missing) upon script startup
+  - `CHARACTER-ID-LIST.txt` is pulled from here: https://github.com/BruhLookAtThis/soundKit_TK/blob/main/CHARACTER-ID-LIST.txt
 
 - Updated some UI elements
 - Updated Info Options
