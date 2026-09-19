@@ -315,6 +315,21 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 
 ----------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
+## UPDATE 2.0.3b (09-18-2026)
+
+### For General
+
+### For SMT
+- Moved `Vorbis` `.wem` creation strictly to a new Option 200
+  - Voices (and I'll assume SFX too) only (seem to) work with `PCM` `.wem`s
+  - If users want to make music mods, they, theoretically, can use Option 200 (in a rush, havent tested)
+    - (If Option 200 doesnt work, I will remove it. You can always just continue using `PCM` `.wem`s from Option 0 for music anyway)
+- With that, forced Option 0 to only create `PCM` `.wem`s
+
+NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_XTRA\.IGNORE-THIS-FOLDER\` 
+
+----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ## UPDATE X.X.X (MM-DD-YYYY) (NOT RELEASED YET, `BUG TESTING`)
 
 ### For General
