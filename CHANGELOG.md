@@ -322,8 +322,8 @@ NOTE: This is NOT heavily tested! If you run into issues, older script versions 
 ### For SMT
 - Moved `Vorbis` `.wem` creation strictly to a new Option 200
   - Voices (and I'll assume SFX too) only (seem to) work with `PCM` `.wem`s
-  - If users want to make music mods, they, theoretically, can use Option 200 (in a rush, havent tested)
-    - (If Option 200 doesnt work, I will remove it. You can always just continue using `PCM` `.wem`s from Option 0 for music anyway)
+  - Music mods made with `Vorbis` `.wem`s are considerably smaller in file size than `PCM`.wem`s (only tested on TT2 Customize song that I had playing on the main menu, but it worked)
+    - Option 0 can still be used to make music mods with `PCM` `.wem`s
 - With that, forced Option 0 to only create `PCM` `.wem`s
 
 NOTE: This is NOT heavily tested! If you run into issues, older script versions can be found in `\0_XTRA\.IGNORE-THIS-FOLDER\` 
